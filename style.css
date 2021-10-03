@@ -1,0 +1,116 @@
+.box{
+    margin:0;
+    height:100%;
+    width:100%;
+    
+}
+.row{
+  margin:0;
+}
+
+.picture{
+    height:400px;
+    width:100%;
+}
+.top {
+    margin: 0;
+    /* The image used */
+    background-image:url("sunset.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-picture{
+    height:900px;
+    width:100%;
+  }
+
+  .bg{
+    margin: 0;
+    /* The image used */
+    background-image:url("bg.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+  }
+  .headline{
+    font-size: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+  .text_field{
+    padding: 10px 5px;
+    font: bold 25px'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 1px solid #a4c3ca;
+    background: #f1f1f1;
+    border-radius: 5px;
+    width: 90%;
+    color: black;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+  }
+
+  #btn{
+    /* background-color:rgb(24, 94, 160) ; */
+    /* color:white; */
+      margin: 20px; 
+     border-radius: 10px;
+     padding-left: 10px;
+     font-family:'Times New Roman', Times, serif ;
+     background-color: rgb(247, 164, 10);
+     
+ }
+
+  .innerbox{
+    height:700px;
+  }
+  .input_place{
+     
+        height:600px;
+        font-size: 30px;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-evenly;
+        padding:10px 50px;
+       
+  }
+  .display_place{
+    height:600px;
+        font-size: 30px;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-evenly;
+        padding:10px 50px;
+        font-weight: bold;
+
+  }
+  .bottom-line{
+    font-size: 20px;
+    text-align:right;
+    padding-right: 30px ;
+    
+  }
+  a{
+    cursor: pointer;
+   background-color: rgb(199, 132, 6);
+  }
+  #sr,#ss,#dl{
+    color:rgb(199, 132, 6);
+    font-weight: bold;
+    font-size: 40px;
+
+  }

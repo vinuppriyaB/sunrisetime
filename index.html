@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Detail</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container box ">
+        <div class="row ">
+            <div class="col-12 picture">
+                <div class="top">
+                    <div class="headline">
+                        <p>SUN RISE AND SET TIME</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-12 ">
+                <div class="bg">
+                <div class="innerbox">
+                    <div class="row">
+                        
+                        
+                        <div class="col-lg-6 col-sm-6 col-md-6  ">
+                            <div class="input_place">
+                                <div>
+                                    <label for="lat">Latitude</label><br>
+                                    <input class="text_field " type="text" placeholder="Decimal degrees" id="lat">
+                                </div>
+                                <div>
+                                    <label for="long">Longitude</label><br>
+                                    <input class="text_field " type="text" placeholder="Decimal degrees" id="long">
+                                </div>
+                                <div>
+                                    <input class="text_field" id="day" type="date" min="2020-08-01"  data-date-format="DD MMMM YYYY" value="2021-10-08" >
+                                </div>
+                                <div>
+                                    <button id="btn" onclick="findtime()">To Know </button>
+                                </div>
+                            </div>
+                            
+                        </div>  
+                        <div class="col-lg-6 col-sm-6 col-md-6  ">
+                            <div class="display_place">
+                                <div>
+                                    <p>Sunrise Time:</p>
+                                    <p id="sr"></p>
+                                </div>
+                                <div>
+                                    <p>Sunset Time:</p>
+                                    <p id="ss"></p>
+                                </div>
+                                <div>
+                                    <p>Day Length:</p>
+                                    <p id="dl"></p>
+                                </div>
+    
+
+                            </div>
+                            
+                        </div> 
+                        <div class="col-12 ">
+                            <div class="bottom-line">
+                                <p>To kown latitude and longitude of location</p>
+                                <a href="https://www.latlong.net/" target="_blank">clickme</a>
+            
+                            </div>
+            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+           
+        </div>       
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
